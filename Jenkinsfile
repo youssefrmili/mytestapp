@@ -9,7 +9,7 @@ pipeline {
                 checkout([
                     $class: 'GitSCM', 
                     branches: [[name: '*']], 
-                    userRemoteConfigs: [[url: 'https://github.com/youssefrmili/ecom.git']]
+                    userRemoteConfigs: [[url: 'https://github.com/youssefrmili/Ecommerce-APP.git']]
                 ])
             }
         }
