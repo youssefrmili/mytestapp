@@ -31,7 +31,7 @@ pipeline {
         stage('Maven Build') {
             when {
                 expression {
-                    (params.CHANGE_ID != null) && (targetBranch == 'dev' || targetBranch == 'prod' || targetBranch == 'staging')
+                   (targetBranch == 'prod' || targetBranch == 'staging')
                 }
             }
             steps {
