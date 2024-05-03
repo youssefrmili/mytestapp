@@ -1,3 +1,4 @@
+
 // Define global variables before the pipeline
 def branchName
 def targetBranch
